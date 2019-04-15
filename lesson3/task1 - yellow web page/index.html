@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="all container-fluid">
+    <div class="header d-flex justify-content-center">
+        <p>The World of Fruit</p>
+    </div>
+    <form name="myForm" method="POST" action="user.php">
+    <div class="main ">
+       <div class="survey d-flex justify-content-center">
+        <p>Fruit Survey</p>
+        </div>
+        <div class="d-flex justify-content-center">
+        <label>Name</label>
+        <input type="text" name="Name" value="" required>
+        </div>
+        <div class="d-flex justify-content-center">
+        <label>Adress</label>
+        <input type="text" name="Adreess" value="" required>
+        </div>
+        <div>
+        <label>Email</label>
+        <input type="text" name="Email" value="" required>
+        </div>
+        <div>
+            <label>How many pieces of fruit<br> do you eat per day</label>
+            <input type="radio" name="0" value=""><label>0</label><br>
+            <input type="radio" name="1" value=""><label>1</label><br>
+            <input type="radio" name="2" value=""><label>2</label><br>
+            <input type="radio" name="More then 2" value=""><label>More then 2</label><br>
+        </div>
+        <div>
+            <label>My favourite fruit</label>
+            <select size="4" required>
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Plum">Plum</option>
+                <option value="Pomegranate">Pomegranate</option>
+            </select>
+        </div>
+        <div>
+            <label>Would you like a brochure</label>
+            <input type="checkbox" name="brochure" value="">
+        </div>
+        <div>
+            <input type="submit" name="btn1" value="Submit">
+        </div>
+    </div>
+    </form>
+    </div>
+</body>
+</html>

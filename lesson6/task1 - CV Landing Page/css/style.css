@@ -1,0 +1,94 @@
+.header{
+    background: black;
+    color: white;
+}
+.container-fluid {
+    padding-left: 100px;
+    
+}
+.nav-menu {
+   width: 100px;
+    height: 60px;
+}
+.nav-menu:first-child {
+    width: 50px;
+}
+.compass {
+    width: 30px;
+    height: 30px;
+}
+.nav p{
+    font-size: 16px;
+    margin: 0;
+}
+a {
+    color: white;
+}
+.cvphoto {
+    width: 200px;
+    height: 250px;
+}
+.main-content {
+    margin-top: 20px;
+}
+.about {
+    margin-left: 50px;
+}
+.bt {
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.bt:first-child {
+    background: red;
+    color: white;
+}
+.bt:last-of-type {
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+.contact img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.right-content {
+    margin-top: 50px;
+}
+h3 {
+    margin-bottom: 30px;
+}
+.lorem {
+    width: 300px;
+}
+h5 {
+    margin: 40px 0;
+}
+.center-content {
+    
+}
+h2 {
+    color: red;
+    margin-top: 50px;
+}
+.top-ed p:first-child, span {
+    font-weight: bold;
+}
+.top-ed p:last-of-type, .academy {
+    color: darkgray;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.footer div {
+    margin-top: 20px;
+}
+ul li {
+    list-style-type: none;
+}
